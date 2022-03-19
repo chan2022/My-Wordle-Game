@@ -100,6 +100,7 @@ public class playWordle {
 
       if(!correct){
         System.out.println("Sorry, you are out of tries. Better luck next time");
+        System.out.println("Today's word was: " + keyWord);
       }
 
     }
